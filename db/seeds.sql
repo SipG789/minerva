@@ -1,4 +1,4 @@
-insert into inventory (id, item_name, price, in_stock, category_name)
+insert into items (id, item_name, price, in_stock, category_name)
 values
     (1, "Nike Basketball Shoes", 59.99, "true", "Footwear" ),
     (2, "Addidas Basketball Shoes", 69.99, "true", "Footwear"),
