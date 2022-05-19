@@ -97,12 +97,12 @@ section > main {
 }
 
 .item-1 {
-  background-image: url("../assets/fruit-img/close-up-photography-of-apples-672101.jpg");
+  background-image: url("../assets/games-img/Sorry.jpg");
   background-size: 100% 100%;
 }
 
 .item-1::after {
-  content: "Apples";
+  content: "Sorry";
   position: absolute;
   bottom: -13.5%;
   left: 0;
@@ -138,16 +138,16 @@ section > main {
 
 .item-1:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/fruit-img/close-up-photography-of-apples-672101.jpg");
+    url("../assets/games-img/Sorry.jpg");
 }
 
 .item-2 {
-  background-image: url("../assets/fruit-img/three-yellow-citrus-952360.jpg");
+  background-image: url("../assets/games-img/Jumanji.jpg");
   background-size: 100% 100%;
 }
 
 .item-2::after {
-  content: "Lemons";
+  content: "Jumanji";
   position: absolute;
   bottom: -13.5%;
   left: 0;
@@ -183,16 +183,16 @@ section > main {
 
 .item-2:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/fruit-img/three-yellow-citrus-952360.jpg");
+    url("../assets/games-img/Jumanji.jpg");
 }
 
 .item-3 {
-  background-image: url("../assets/fruit-img/white-bowl-of-whole-strawberries-89778.jpg");
+  background-image: url("../assets/games-img/Chutes.jpg");
   background-size: 100% 100%;
 }
 
 .item-3::after {
-  content: "Strawberries";
+  content: "Chutes % Ladders";
   position: absolute;
   bottom: -13.5%;
   left: 0;
@@ -228,16 +228,16 @@ section > main {
 
 .item-3:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/fruit-img/white-bowl-of-whole-strawberries-89778.jpg");
+    url("../assets/games-img/Chutes.jpg");
 }
 
 .item-4 {
-  background-image: url("../assets/fruit-img/yellow-bananas-61127.jpg");
+  background-image: url("../assets/games-img/GuessWho.jpg");
   background-size: 100% 100%;
 }
 
 .item-4::after {
-  content: "Bananas";
+  content: "Guess Who";
   position: absolute;
   bottom: -13.5%;
   left: 0;
@@ -273,7 +273,7 @@ section > main {
 
 .item-4:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/fruit-img/yellow-bananas-61127.jpg");
+    url("../assets/games-img/GuessWho.jpg");
 }
 
 @media (min-width: 0px) and (max-width: 425px) {
