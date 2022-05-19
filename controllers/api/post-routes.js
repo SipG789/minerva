@@ -6,7 +6,7 @@ router.get("/", (req, res) => {
   console.log("======================");
   Post.findAll({
     order: [["created_at", "DESC"]],
-    attributes: ["id", "post_url", "title", "created_at"],
+    attributes: ["id", "post_content", "title", "created_at"],
     include: [
       // include the Comment model here:
       {
@@ -35,7 +35,7 @@ router.get("/:id", (req, res) => {
     where: {
       id: req.params.id,
     },
-    attributes: ["id", "post_url", "title", "created_at"],
+    attributes: ["id", "post_content", "title", "created_at"],
     include: [
       {
         model: Comment,
@@ -65,10 +65,9 @@ router.get("/:id", (req, res) => {
 });
 
 router.post("/", (req, res) => {
-  // expects {title: 'Taskmaster goes public!', post_url: 'https://taskmaster.com/press', user_id: 1}
   Post.create({
     title: req.body.title,
-    post_url: req.body.post_url,
+    post_content: req.body.post_content,
     user_id: req.body.user_id,
   })
     .then((dbPostData) => res.json(dbPostData))
