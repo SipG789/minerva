@@ -18,7 +18,7 @@ Post.init(
         type: DataTypes.STRING,
         allowNull: false
       },
-      post_Content: {
+      post_content: {
         type: DataTypes.STRING,
         allowNull: false,
         unique: true
