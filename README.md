@@ -16,6 +16,7 @@ Additionally you can choose the option to sell your products and even trade with
 
   ### Install
   Visit the heroku link below:
+  https://mighty-sands-42557.herokuapp.com/
 
   ### Usage
   When you visit our homepage you will have the option to look through our inventory, find the deal of the day, shop entertainment and much much more!
